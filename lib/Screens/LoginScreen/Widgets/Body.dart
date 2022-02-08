@@ -1,4 +1,4 @@
-import 'package:loginscreen/GeneralWidgets/GWidgets.dart';
+import 'package:amuse_app/GeneralWidgets/GWidgets.dart';
 import 'package:flutter/material.dart';
 
 import 'BottomClipper.dart';

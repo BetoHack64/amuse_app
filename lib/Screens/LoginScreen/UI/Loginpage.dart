@@ -1,4 +1,5 @@
-import 'package:loginscreen/Screens/LoginScreen/Widgets/Body.dart';
+
+import 'package:amuse_app/Screens/LoginScreen/Widgets/Body.dart';
 import 'package:flutter/material.dart';
 
 class LoginpageClass extends StatefulWidget {

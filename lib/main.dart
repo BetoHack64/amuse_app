@@ -1,6 +1,5 @@
+import 'package:amuse_app/Screens/LoginScreen/UI/Loginpage.dart';
 import 'package:flutter/services.dart';
-
-import 'Screens/LoginScreen/UI/Loginpage.dart';
 import 'package:flutter/material.dart';
 
 void main() {

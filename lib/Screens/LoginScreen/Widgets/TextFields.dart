@@ -39,14 +39,14 @@ Widget component(
         ),
         child: TextField(
           style: TextStyle(
-            color: Colors.black.withOpacity(.3),
+            color: Colors.black,
           ),
           obscureText: isPassword,
           keyboardType: isEmail ? TextInputType.emailAddress : TextInputType.text,
           decoration: InputDecoration(
             prefixIcon: Icon(
               icon,
-              color: Colors.black.withOpacity(.8),
+              color: Colors.black,
             ),
             border: InputBorder.none,
             hintMaxLines: 1,

@@ -1,4 +1,4 @@
-import 'package:loginscreen/GeneralWidgets/GWidgets.dart';
+import 'package:amuse_app/GeneralWidgets/GWidgets.dart';
 import 'package:flutter/material.dart';
 
 Widget buildLoginContainer(BuildContext context) => Container(
@@ -14,8 +14,8 @@ Widget buildLoginContainer(BuildContext context) => Container(
 Widget buildLoginBtn() => Positioned(
       right: -100,
       child: Container(
-        width: 350,
-        height: 65,
+        width: 320,
+        height: 40,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(40.00),
           color: Color(0xFF2395be),

@@ -1,11 +1,11 @@
-import 'package:loginscreen/Declarations/Images/ImagesFiles.dart';
+import 'package:amuse_app/Declarations/Images/ImagesFiles.dart';
 import 'package:flutter/material.dart';
 
 Widget buildBottomClippers() => Container(
       height:91.5,
       child: Stack(
         children: [
-          buildBottomClip1(-245, -160, 3),
+          buildBottomClip1(-245, -163, 3),
           buildBottomClip1(-245, -170, 2),
         ],
       ),
