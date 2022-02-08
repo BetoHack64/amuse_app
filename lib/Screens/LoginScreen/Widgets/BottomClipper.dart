@@ -1,25 +1,23 @@
-// ignore_for_file: sized_box_for_whitespace
-
 import 'package:amuse_app/Declarations/Images/ImagesFiles.dart';
 import 'package:flutter/material.dart';
 
-Widget buildTopClippers() => Container(
-      height: 175,
+Widget buildBottomClippers() => Container(
+      height:91.5,
       child: Stack(
         children: [
-          buildTopClip1(-343, -153, 1),
-          buildTopClip1(-350, -150, 0),
+          buildBottomClip1(-245, -163, 3),
+          buildBottomClip1(-245, -170, 2),
         ],
       ),
     );
 
-Widget buildTopClip1(double myright, double mytop, int imageIndex) =>
+Widget buildBottomClip1(double myleft, double mybottom, int imageIndex) =>
     Positioned(
-      right: myright,
-      top: mytop,
+      left: myleft,
+      bottom: mybottom,
       child: Container(
-        width: 580,
-        height: 330,
+        width: 385,
+        height: 420,
         child: Image.asset(
           loginPageImages[imageIndex],
           fit: BoxFit.contain,

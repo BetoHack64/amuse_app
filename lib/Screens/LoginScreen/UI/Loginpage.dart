@@ -1,9 +1,10 @@
-import 'package:amuse_app/Screens/LoginScreen/Widgets/body_.dart';
+
+import 'package:amuse_app/Screens/LoginScreen/Widgets/Body.dart';
 import 'package:flutter/material.dart';
 
 class LoginpageClass extends StatefulWidget {
   LoginpageClass({
-    Key? key,
+    Key key,
   }) : super(key: key);
 
   @override

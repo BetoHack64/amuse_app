@@ -1,15 +1,13 @@
-// ignore_for_file: sized_box_for_whitespace
-
 import 'package:amuse_app/GeneralWidgets/GWidgets.dart';
 import 'package:flutter/material.dart';
 
-import 'bottom_clipper.dart';
-import 'other_logins.dart';
-import 'sign_up_text.dart';
-import 'text_fields.dart';
-import 'top_clipper.dart';
-import 'login_btn.dart';
-import 'logo_.dart';
+import 'BottomClipper.dart';
+import 'OtherLogins.dart';
+import 'SignUpText.dart';
+import 'TextFields.dart';
+import 'TopClipper.dart';
+import 'LoginBtn.dart';
+import 'Logo.dart';
 
 Widget buildBody(BuildContext context) => Container(
       width: double.infinity,

@@ -4,22 +4,22 @@ Widget buildTextField(String myhintText, IconData myIcons, bool canObscure) =>
     Padding(
       padding: const EdgeInsets.symmetric(horizontal: 50.00),
       child: TextFormField(
-        style: const TextStyle(color: Colors.white),
+        style: TextStyle(color: Colors.white),
         obscureText: canObscure,
         decoration: InputDecoration(
           enabledBorder: OutlineInputBorder(
-            borderSide: const BorderSide(color: Colors.transparent),
+            borderSide: BorderSide(color: Colors.transparent),
             borderRadius: BorderRadius.circular(40.0),
           ),
           focusedBorder: OutlineInputBorder(
-            borderSide: const BorderSide(color: Colors.transparent),
+            borderSide: BorderSide(color: Colors.transparent),
             borderRadius: BorderRadius.circular(40.0),
           ),
           prefixIcon: Icon(myIcons, color: Colors.white),
           hintText: myhintText,
-          hintStyle: const TextStyle(color: Colors.white),
+          hintStyle: TextStyle(color: Colors.white),
           filled: true,
-          fillColor: const Color.fromRGBO(81, 165, 243, 1),
+          fillColor: Color.fromRGBO(81, 165, 243, 1),
         ),
       ),
     );
@@ -39,14 +39,14 @@ Widget component(
         ),
         child: TextField(
           style: TextStyle(
-            color: Colors.black.withOpacity(.3),
+            color: Colors.black,
           ),
           obscureText: isPassword,
           keyboardType: isEmail ? TextInputType.emailAddress : TextInputType.text,
           decoration: InputDecoration(
             prefixIcon: Icon(
               icon,
-              color: Colors.black.withOpacity(.8),
+              color: Colors.black,
             ),
             border: InputBorder.none,
             hintMaxLines: 1,

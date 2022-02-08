@@ -1,5 +1,3 @@
-// ignore_for_file: sized_box_for_whitespace
-
 import 'package:amuse_app/Declarations/Images/ImagesFiles.dart';
 import 'package:amuse_app/GeneralWidgets/GWidgets.dart';
 import 'package:flutter/cupertino.dart';
@@ -22,7 +20,7 @@ Widget buildOtherLoginText() => Positioned(
         children: [
           buildDivider(),
           widthSpacer(5.5),
-          const Text(
+          Text(
             "ou continue com",
             style: TextStyle(color: Colors.grey, fontSize: 15.00),
           ),
